@@ -1,0 +1,25 @@
+{
+  "name": "fileconverter",
+  "version": "1.0.0",
+  "description": "A file converter that use sharp package",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager . --platform=win32 --arch=x64 --out=dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathr81/fileConverter.git"
+  },
+  "author": "Mathr81",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mathr81/fileConverter/issues"
+  },
+  "homepage": "https://github.com/Mathr81/fileConverter#readme",
+  "dependencies": {
+    "electron": "^28.1.0",
+    "electron-packager": "^17.1.2",
+    "sharp": "^0.33.1"
+  }
+}
